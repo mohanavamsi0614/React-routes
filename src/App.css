@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.active{
+  border-bottom: 5px solid rgb(255, 255, 255);
+}
+.active p{
+  color: rgb(240, 82, 82);
+}
+nav{
+  display: flex;
+  position: absolute;
+  width: 90%;
+  background-color: wheat;
+  top: 10px;
+  left: 80px;
+  border-radius: 10px;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+img{
+  width: 5%;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+nav>*{
+  margin: 10px;
+  border-radius: 5px;
+  padding: 1px;
+  
+}
+p{
+  color: white;
+  font-size: larger;
+}
